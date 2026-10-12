@@ -1,0 +1,16 @@
+{
+  "name": "Mi Bodega — Punto de Venta e Inventario",
+  "short_name": "Mi Bodega",
+  "description": "Sistema de punto de venta e inventario para Venezuela (Bs y $).",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "es-VE",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

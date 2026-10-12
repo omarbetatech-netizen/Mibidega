@@ -1,0 +1,12 @@
+{
+  "appId": "com.mibodega.pos",
+  "appName": "Mi Bodega",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

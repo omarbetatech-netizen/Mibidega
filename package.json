@@ -1,0 +1,20 @@
+{
+  "name": "mibodega-pos",
+  "version": "1.0.0",
+  "description": "Mi Bodega - Punto de venta e inventario (Venezuela)",
+  "private": true,
+  "scripts": {
+    "add:android": "cap add android",
+    "sync": "cap sync android",
+    "open:android": "cap open android",
+    "build:apk": "cd android && ./gradlew assembleDebug",
+    "build:release": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/core": "6.1.2",
+    "@capacitor/android": "6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2"
+  }
+}
